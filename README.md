@@ -46,7 +46,13 @@ DQ stock was showing an increase of 199.4% in 2017 return and a decrease by -62.
 ![2018](resources/VBA_Challenge_2018.png)
 
 ### - Orginal script vs. Refactored script in execution times
-To compare the execution times, we pull up the pictures below. The original script of 2017 took 0.320 seconds and refactored script of 2017 took 0.096seconds to execute the process.
+To compare the execution times, we used the code below to show in msgbox.
+
+        startTime = Timer
+        endTime = Timer
+    MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
+    
+As shown in the pictures below, the original script of 2017 took 0.320 seconds and refactored script of 2017 took 0.096seconds to execute the process.
 
 - Original in 2017
 ![2017_org](resources/Original_2017.png)

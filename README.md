@@ -40,10 +40,10 @@ Then, use for for loop to find the outcome of DQ in percentage by using code bel
 DQ stock was showing increase by 199.4% in 2017 return and decrese by -62.6% in 2018 return. Also, total daily volumne in 2017 was 35,796,200 and in 2018 was 107,873,900, which show the volumne has been increased as shown the charts below.
 
 - All Stocks(2017)
-![2017](resources/VBA_Challenge_2017.png)
+
 
 - All Stocks(2018)
-![2018](resources/VBA_Challenge_2018.png)
+
 
 
 

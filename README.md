@@ -74,6 +74,6 @@ Both refactored codes of 2017 and 2018 took shorter time than original codes of 
 
 ## Summary
 In the analysis above from 2017 to 2018, we can see that DQ has a combination of both a sharp drop in price and a spike in trading volume. This indicates that the uptrend which showed in the 2017 return rate has been ended. So, this is not a good time to invest DQ with all Steve's parents' money.
-Also, when we analyzing the trends with code, we have executed both the original script and refactored script. Apparentlly, the refactored script takes a shorter time compared to the original script especially when we have a humongous volume of data. Refactored code will give outcomes efficiently in time compared to the original. However, to refine and make a concise code takes time to organize in a clean way. Sometimes, figuring out the refactored code itself will make us get lost on the way out.
+Also, when we analyzing the trends with code, we have executed both the original script and refactored script. Apparentlly, the refactored script takes a shorter time compared to the original script especially when we have a humongous volume of data in VBA script. Refactored code will give outcomes efficiently in time compared to the original. However, to refine and make a concise code takes time to organize in a clean way. Sometimes, figuring out the refactored code itself will make us get lost on the way out.
 
 

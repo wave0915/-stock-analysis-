@@ -37,7 +37,7 @@ Then, use for for loop to find the outcome of DQ in percentage by using code bel
       Range("B4:B15").NumberFormat = "#,##0"
       Range("C4:C15").NumberFormat = "0.0%"
       
-DQ stock was showing an increase of 199.4% in 2017 return and a decrease by -62.6% in 2018 return. Also, the total daily volume in 2017 was 35,796,200 and in 2018 was 107,873,900, which shows the volume has been increased as shown in the charts below.
+DQ stock was showing an increase of 199.4% in 2017 return and a decrease by -62.6% in 2018 return. Also, the total daily volume in 2017 was 35,796,200 and in 2018 was 107,873,900, which shows the volume has been increased as shown in the pictures below.
 
 - All Stocks(2017)
 ![2017](resources/VBA_Challenge_2017.png)
@@ -46,7 +46,7 @@ DQ stock was showing an increase of 199.4% in 2017 return and a decrease by -62.
 ![2018](resources/VBA_Challenge_2018.png)
 
 ### - Orginal script vs. Refactored script in execution times
-To compare the execution times, we pull up the charts below. The original script of 2017 took 0.320 seconds and refactored script of 2017 took 0.096seconds to execute the process.
+To compare the execution times, we pull up the pictures below. The original script of 2017 took 0.320 seconds and refactored script of 2017 took 0.096seconds to execute the process.
 
 - Original in 2017
 ![2017_org](resources/Original_2017.png)
@@ -55,7 +55,7 @@ To compare the execution times, we pull up the charts below. The original script
 - Refactored in 2017
 ![2017_refactored](resources/VBA_Challenge_2017.png)
 
-Also, the original script of 2018 took 0.320 seconds, and refactored script of 2018 took 0.098seconds to execute the process as shown in the charts below.
+Also, the original script of 2018 took 0.320 seconds, and refactored script of 2018 took 0.098seconds to execute the process as shown in the pictures below.
 
 - Original in 2018
 ![2018_org](resources/Original_2018.png)

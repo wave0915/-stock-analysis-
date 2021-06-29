@@ -45,6 +45,24 @@ DQ stock was showing increase by 199.4% in 2017 return and decrese by -62.6% in 
 - All Stocks(2018)
 ![2018](resources/VBA_Challenge_2018.png)
 
+### - Orginal script vs. Refactored script in excution times
+To compare the excution times, we pull up the charts below. Original  script of 2017 took 0.320 seconds and refactored script of 2017 took 0.096seconds to excute the process.
+
+- Original in 2017
+![2017_org](resources/Original_2017.png)
+
+
+- Refactored in 2017
+![2017_refactored](resources/VBA_Challenge_2017.png)
+
+Original  script of 2018 took 0.320 seconds and refactored script of 2018 took 0.098seconds to excute the process as shown in the charts below.
+
+- Original in 2018
+![2018_org](resources/Original_2018.png)
+
+
+- Refactored in 2018
+![2018_refactored](resources/VBA_Challenge_2018.png)
 
 
 

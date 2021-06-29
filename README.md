@@ -6,7 +6,7 @@ Performing analysis by using VBA to perform financial analysis on [green_stocks]
 ## Results
 
 ### -2017 vs. 2018 in stock performance
-To compare the performance of 2017 and 2018, first use conditional statement in for loop to filter the starting and ending prices of current ticker(DQ) by using the code below in excel macro.
+To analyze the performance of 2017 and 2018, first use conditional statement in for loop to filter the starting and ending prices of current ticker(DQ) by using the code below in excel macro.
        
 
     For i = 2 To RowCount
@@ -37,7 +37,7 @@ Then, use for for loop to find the outcome of DQ in percentage by using code bel
       Range("B4:B15").NumberFormat = "#,##0"
       Range("C4:C15").NumberFormat = "0.0%"
       
-DQ stock was showing increase by 199.4% in 2017 return and decrese by -62.6% in 2018 return. Also, total daily volumne in 2017 was 35,796,200 and in 2018 was 107,873,900, which show the volumne has been increased as shown the charts below.
+DQ stock was showing an increase of 199.4% in 2017 return and a decrease by -62.6% in 2018 return. Also, the total daily volume in 2017 was 35,796,200 and in 2018 was 107,873,900, which shows the volume has been increased as shown in the charts below.
 
 - All Stocks(2017)
 ![2017](resources/VBA_Challenge_2017.png)
@@ -45,8 +45,8 @@ DQ stock was showing increase by 199.4% in 2017 return and decrese by -62.6% in 
 - All Stocks(2018)
 ![2018](resources/VBA_Challenge_2018.png)
 
-### - Orginal script vs. Refactored script in excution times
-To compare the excution times, we pull up the charts below. Original  script of 2017 took 0.320 seconds and refactored script of 2017 took 0.096seconds to excute the process.
+### - Orginal script vs. Refactored script in execution times
+To compare the execution times, we pull up the charts below. The original script of 2017 took 0.320 seconds and refactored script of 2017 took 0.096seconds to execute the process.
 
 - Original in 2017
 ![2017_org](resources/Original_2017.png)
@@ -55,7 +55,7 @@ To compare the excution times, we pull up the charts below. Original  script of 
 - Refactored in 2017
 ![2017_refactored](resources/VBA_Challenge_2017.png)
 
-Original  script of 2018 took 0.320 seconds and refactored script of 2018 took 0.098seconds to excute the process as shown in the charts below.
+Also, the original script of 2018 took 0.320 seconds, and refactored script of 2018 took 0.098seconds to execute the process as shown in the charts below.
 
 - Original in 2018
 ![2018_org](resources/Original_2018.png)
@@ -64,5 +64,8 @@ Original  script of 2018 took 0.320 seconds and refactored script of 2018 took 0
 - Refactored in 2018
 ![2018_refactored](resources/VBA_Challenge_2018.png)
 
+## Summary
+In the analysis above from 2017 to 2018, we can see that DQ has a combination of both a sharp drop in price and a spike in trading volume. This indicates that the uptrend which showed in the 2017 return rate has been ended. So, this is not a good time to invest DQ with all Steve's parents' money.
+Also, when we analyzing the trends with code, we have executed both the original script and refactored script. In a way, the refactored script takes a shorter time compared to the original script especially when we have a humongous volume of data. Refactored code would give outcomes efficiently in time. However, to refine and make concise codes takes time to organize in a clean way. Sometimes, figuring out the refactored code let us  get lost on the way out.
 
 
